@@ -5,7 +5,7 @@ from scipy.ndimage.interpolation import zoom
 from streamlit_drawable_canvas import st_canvas
 from utils import process_image
 st.markdown("#:red[APP] :blue[RECONOCIMIENTO DE] :green[NUMEROS] :pencil: 💻😀")
-st.imagen("https://media.geeksforgeeks.org/wp-content/uploads/Capture-153-265x300.png")
+st.image("https://media.geeksforgeeks.org/wp-content/uploads/Capture-153-265x300.png")
 # Load trained model
 model = tf.keras.models.load_model('mi_modelo.h5')
 
